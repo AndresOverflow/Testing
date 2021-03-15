@@ -10,6 +10,22 @@ const checks = [
 
 console.log(checks)
 
+console.log("\n =======|  ASSERTS  |=================\n")
+
+console.log("\n")
+
+
+/* checks.forEach(check => {
+    const {a, b, result} = check;
+
+    console.assert(
+        suma(a, b) === result,
+        `Suma of ${a} and ${b} expected to be ${result}`
+    )
+})
+*/
+
+
 checks.map(check => {
     const {a, b, result} = check;
 
@@ -20,6 +36,3 @@ checks.map(check => {
 })
 
 
-console.log("\n =======|  ASSERTS  |=================\n")
-
-console.log("\n")

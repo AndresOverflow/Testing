@@ -1,0 +1,27 @@
+{
+  "name": "testing",
+  "version": "1.0.0",
+  "description": "Simple programs that use testing",
+  "main": "test1.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "start" : "node index.js",
+    "test": "jest --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndresOverflow/Testing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndresOverflow/Testing/issues"
+  },
+  "homepage": "https://github.com/AndresOverflow/Testing#readme"
+  ,
+  "jest": {
+      "testEnvironment" : "node"
+  }
+}
